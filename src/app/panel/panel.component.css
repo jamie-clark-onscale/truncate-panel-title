@@ -1,0 +1,25 @@
+.panel {
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+.panel-header {
+    padding: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.panel-header .title { 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.panel-body {
+    min-height: 300px;
+}
